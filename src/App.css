@@ -1,0 +1,62 @@
+.App {
+  text-align: center;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+}
+nav {
+  background-color: #333;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav a {
+  color: white;
+  font-size: 18px;
+  padding: 8px 12px;
+  border-radius: 4px;
+}
+
+nav a:hover {
+  background-color: #575757;
+}
+
+.content {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+}
+
+.WorkExample h1, .ContactInfo h1, .About h1 {
+  font-size: 32px;
+  color: #333;
+}
+
+.WorkExample p, .ContactInfo p, .About p {
+  font-size: 15px;
+  color: #555;
+  line-height: 1.5;
+}
+
+.WorkExample {
+  background-color: #e9f7fa;
+  padding: 20px;
+}
+
+.ContactInfo {
+  background-color: #fffbf0;
+  padding: 20px;
+}
+
+.About {
+  background-color: #f0f8ff;
+  padding: 20px;
+}
+
